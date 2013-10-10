@@ -25,6 +25,25 @@ bespoke.horizontal.from('article', {
 });
 ```
 
+You can now change the style of the animation depending on which direction you're going.
+
+### CSS
+
+The following classes are available on your parent element.
+
+<table>
+   <tr>
+    <td><b>bespoke-dir-next</b></td>
+    <td>When you are going forwards</td>
+   </tr>
+   <tr>
+    <td><b>bespoke-bullet-prev</b></td>
+    <td>When you are going backwards</td>
+   </tr>
+</table>
+
+See [demo](demo) folder for a very simple example.
+
 ## Package managers
 
 ### Bower
