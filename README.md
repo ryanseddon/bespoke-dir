@@ -37,7 +37,7 @@ The following classes are available on your parent element.
     <td>When you are going forwards</td>
    </tr>
    <tr>
-    <td><b>bespoke-bullet-prev</b></td>
+    <td><b>bespoke-dir-prev</b></td>
     <td>When you are going backwards</td>
    </tr>
 </table>
