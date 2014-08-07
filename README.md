@@ -15,14 +15,25 @@ Download the [production version][min] or the [development version][max], or use
 
 ## Usage
 
-First, include both `bespoke.js` and `bespoke-dir.js` in your page.
+This plugin is shipped in a [UMD format](https://github.com/umdjs/umd), meaning that it is available as a CommonJS/AMD module or browser global.
 
-Then, simply include the plugin when instantiating your presentation.
+For example, when using CommonJS modules:
 
 ```js
-bespoke.horizontal.from('article', {
-  dir: true
-});
+var bespoke = require('bespoke'),
+  dir = require('bespoke-dir');
+
+bespoke.from('article', [
+  dir()
+]);
+```
+
+When using browser globals:
+
+```js
+bespoke.from('article', [
+  bespoke.plugins.dir()
+]);
 ```
 
 You can now change the style of the animation depending on which direction you're going.
@@ -46,23 +57,16 @@ See [demo](demo) folder for a very simple example.
 
 ## Package managers
 
-### Bower
-
-```bash
-$ bower install bespoke-dir
-```
-
 ### npm
 
 ```bash
 $ npm install bespoke-dir
 ```
 
-The bespoke-dir npm package is designed for use with [browserify](http://browserify.org/), e.g.
+### Bower
 
-```js
-require('bespoke');
-require('bespoke-dir');
+```bash
+$ bower install bespoke-dir
 ```
 
 ## Credits

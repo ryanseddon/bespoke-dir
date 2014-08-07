@@ -1,3 +1,6 @@
-bespoke.horizontal.from('article', {
-  dir: true
-});
+bespoke.from('article', [
+  bespoke.plugins.classes(),
+  bespoke.plugins.keys(),
+  bespoke.plugins.touch(),
+  bespoke.plugins.dir()
+]);
