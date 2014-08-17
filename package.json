@@ -1,6 +1,6 @@
 {
   "name": "bespoke-dir",
-  "version": "0.0.0",
+  "version": "0.1.0",
   "description": "Add a class to the slide parent element to let you know which direction the slides are going",
   "homepage": "https://github.com/ryanseddon/bespoke-dir",
   "bugs": "https://github.com/ryanseddon/bespoke-dir/issues",
